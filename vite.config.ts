@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.ico", "apple-touch-icon.png", "*.png"],
+      includeAssets: ["favicon.ico", "apple-touch-icon.png", "*.png", "*.svg"],
       manifest: {
         name: "Notes PWA",
         short_name: "NotesPWA",
